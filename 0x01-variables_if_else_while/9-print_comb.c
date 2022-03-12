@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
 * main - entry point
 * Return: program finshed
 */
+
 int main(void)
 {
 	int i;
