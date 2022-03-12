@@ -1,13 +1,16 @@
 #include <stdio.h>
-
-int main()
+/**
+* main - entry point
+* Return: program finished
+*/
+int main(void)
 {
-  for (int i=48;i<58;i++)
-    putchar(i);
-  for (int i=97;i<103;i++)
-    putchar(i);
- 
-  putchar('\n');
-    
-  return 0;
+	int i;
+
+	for (i = 48; i < 58; i++)
+		putchar(i);
+	for (i = 97; i < 103; i++)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
