@@ -4,6 +4,7 @@
 
 /**
 * main - Entry point
+* Return: program finished
 */
 int main(void)
 {
