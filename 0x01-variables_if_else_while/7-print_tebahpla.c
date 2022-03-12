@@ -1,13 +1,14 @@
 #include <stdio.h>
-
-int main()
+/**
+* main - entry point
+* Return: program finished
+*/
+int main (void)
 {
-  for (int i=97+25;i>=97;i--){
-        
-    putchar(i);
-  }
-        
-  putchar('\n');
-    
-  return 0;
+	int i;
+
+	for (i = 97 + 25; i >= 48; i--)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
