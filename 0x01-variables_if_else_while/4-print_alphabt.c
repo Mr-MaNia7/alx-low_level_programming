@@ -7,7 +7,7 @@ int main(void)
 {
 	int i;
 
-	for (i=97; i < 97 + 26; i++)
+	for (i = 97; i < 97 + 26; i++)
 	{
 		if (i == 101 || i == 97 + 16)
 			continue;
