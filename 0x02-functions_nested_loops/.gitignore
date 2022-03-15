@@ -3,3 +3,4 @@ a.out
 #*.*#
 *.s
 *.o
+_putchar.c
