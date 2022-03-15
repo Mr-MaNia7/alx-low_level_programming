@@ -20,5 +20,4 @@ int main(void)
 	return (0);
 }
 
-
-#include "_putchar.c"
+//#include "_putchar.c"
