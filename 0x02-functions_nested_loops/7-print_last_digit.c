@@ -8,6 +8,9 @@ int print_last_digit(int n)
 {
 	int res;
 
-	res=_abs(n) % 10;
+	res = _abs(n) % 10;
+	_putchar('0' + res);
 	return (res);
 }
+
+#include "6-abs.c"
