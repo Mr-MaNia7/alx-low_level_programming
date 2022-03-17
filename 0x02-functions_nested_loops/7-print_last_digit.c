@@ -11,3 +11,5 @@ int print_last_digit(int n)
 	res=_abs(n) % 10;
 	return (res);
 }
+
+#include "6-abs.c"
