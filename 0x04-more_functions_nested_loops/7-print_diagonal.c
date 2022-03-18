@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_diagonal - Prints diagonal wrt the number entered
