@@ -5,7 +5,7 @@
  *
  * Return: Always password
  */
-int main
+int main(void)
 {
 	int pwd;
 	pwd = rand();
