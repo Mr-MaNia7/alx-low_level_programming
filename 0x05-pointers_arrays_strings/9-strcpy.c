@@ -18,9 +18,12 @@ char *_strcpy(char *dest, char *src)
 		len++;
 	}
 
-	for (idx = 0; idx < len; idx++)
+	for (idx = 0; idx <= len; idx++)
 	{
-		dest[idx] = src[idx];
+		if (idx == len)
+			dest[len] = '\0';
+		else
+			dest[idx] = src[idx];
 	}
 	return (dest);
 }
