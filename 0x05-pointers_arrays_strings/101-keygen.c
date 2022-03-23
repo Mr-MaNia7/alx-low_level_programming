@@ -8,8 +8,9 @@
  */
 int main(void)
 {
-	srand(time(0));
 	int pwd;
+
+	srand(time(0));
 	pwd = rand();
 	return (pwd);
 }
