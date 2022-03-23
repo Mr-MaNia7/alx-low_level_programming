@@ -12,5 +12,5 @@ int main(void)
 
 	srand(time(0));
 	pwd = rand();
-	return (pwd);
+	return (0);
 }
