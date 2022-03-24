@@ -16,13 +16,14 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		lensrc++;
 	}
+	lensrc++;
 
 	for (idx = 0; idx < n; idx++)
 	{
 		dest[idx] = src[idx];
 	}
 
-	if (idx
-	dest[desti + 1] = '\0';
+	if (lensrc < n)
+		dest[idx + 1] = '\0';
 	return (dest);
 }
